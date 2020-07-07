@@ -10,4 +10,4 @@ The system beigns by first collecting images of different people and stores them
 atleast 7 different unique images of themselves. 
 The `imageSet` which is an in-built MATLAB function will be used for grouping the images. 
 
-(/images/all.jpg)
+![GitHub Logo](/images/all.jpg)
