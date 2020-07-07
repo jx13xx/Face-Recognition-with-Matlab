@@ -46,5 +46,7 @@ faceClassifier =(fitcecoc(training_Features,trainingLabel));
 ## Results from the Classifier 
 Once the classifier is successfully created we can then test the trained classifier by providing a query image. The query image can be any image that is included in the face dataset. The classifier compares the query image with all the trained images and displays the output picture of the identified person.
 
-![GitHub Logo](/images/final_result.jpg)
+<p align="center">
+  <img width="460" height="600" src="/images/final_result.jpg">
+</p>
 
