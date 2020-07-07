@@ -10,4 +10,6 @@ The system beigns by first collecting images of different people and stores them
 atleast 7 different unique images of themselves. 
 The `imageSet` which is an in-built MATLAB function will be used for grouping the images. 
 
+## Detection and Extraction of the Image
+Face detection is an important step in face recognition that corresponds the localization of the face in a given image. Once the face is detected it is cropped for recognition or a rectangle box will be overlayered on the identified persons image
 ![GitHub Logo](/images/all.jpg)
