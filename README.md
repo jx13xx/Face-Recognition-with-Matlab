@@ -19,4 +19,4 @@ Face detection is an important step in face recognition that corresponds the loc
 ## Extraction using the HOG Feature 
 The HOGs are a feature descriptor that been successfully used for object and pedestrian detection, represented as a single value vector as opposed to a set of feature vectors where each represents a region of the image. The results of the image shown illustrates the output result when the HOG feature extraction
 method was used.
-![GitHub Logo](/images/pp2.jpg)
+                  ![GitHub Logo](/images/pp2.jpg)
