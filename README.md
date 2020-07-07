@@ -19,7 +19,18 @@ Face detection is an important step in face recognition that corresponds the loc
 ## Extraction using the HOG Feature 
 The HOGs are a feature descriptor that been successfully used for object and pedestrian detection, represented as a single value vector as opposed to a set of feature vectors where each represents a region of the image. The results of the image shown illustrates the output result when the HOG feature extraction
 method was used.
+
+```MATLAB
+person = 21;
+[hogFeature, visualization] = ...
+    extractHOGFeatures(read(trainingSet(person),1));
+
+figure;
+subplot(1,2,1); imshow(read(trainingSet(person),1)); title('Input Face');
+subplot(1,2,2); plot(visualization); title('HoG Feature');
+
+```
                   
 <p align="center">
-  <img width="460" height="300" src="/images/pp2.jpg">
+  <img width="460" height="400" src="/images/pp2.jpg">
 </p>
