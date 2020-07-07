@@ -34,3 +34,12 @@ subplot(1,2,2); plot(visualization); title('HoG Feature');
 <p align="center">
   <img width="460" height="400" src="/images/pp2.jpg">
 </p>
+
+## Classifier Training
+ The `ECOC (Error CorrectingOutput codes)` basically converts multi-class classification problem into a binary classification problem with the help of various coding
+schemes accompanied by a linear like Support Vector Machine (SVM).
+In the Face recognition system the ECOC classifier is trained with the extracted features from the HOG.
+
+```MATLAB
+faceClassifier =(fitcecoc(training_Features,trainingLabel));
+```
