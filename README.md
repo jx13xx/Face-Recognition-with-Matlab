@@ -1,4 +1,8 @@
 # Face-Recognition-with-Matlab
+```diff
++ Done by Jean Xavier
+@@ University of Wollonong @@
+```
 The aim of the project is to crate a Face Recognition System via through deep learning methods that will help in recognizing the face of users based on the image dataset 
 that is provided to it. The system will first be trained with a set a images which will be used as the default classifier for comparison.
 
@@ -9,3 +13,7 @@ The classifiers were implemented with the following methods **HOG Features, ECOC
 The system beigns by first collecting images of different people and stores them onto the database of the system. Each individual on the database will have 
 atleast 7 different unique images of themselves. 
 The `imageSet` which is an in-built MATLAB function will be used for grouping the images. 
+
+## Detection and Extraction of the Image
+Face detection is an important step in face recognition that corresponds the localization of the face in a given image. Once the face is detected it is cropped for recognition or a rectangle box will be overlayered on the identified persons image
+![GitHub Logo](/images/all.jpg)
